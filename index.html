@@ -1,44 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
     <style>
-        body { margin: 0; font-family: Arial; background: #fafafa; }
-        header { background: #000; color: #fff; text-align: center; padding: 40px 10px; }
-        .section { margin: 15px; background: white; padding: 20px; border-radius: 10px; }
-        .project { background: #eee; padding: 10px; border-radius: 8px; margin-top: 10px; }
+        body { font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; }
+        header { background: #1a1a1a; color: white; padding: 40px 20px; text-align: center; }
+        section { max-width: 900px; margin: 40px auto; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { border-left: 5px solid #1a1a1a; padding-left: 10px; }
+        ul { line-height: 1.8; }
+        .project, .cert, .hack, .exp { border-bottom: 1px solid #ddd; padding: 10px 0; }
+        .contact a { color: #1a1a1a; text-decoration: none; }
+        .resume-btn { display: inline-block; padding: 10px 18px; background: #1a1a1a; color: white; border-radius: 8px; text-decoration: none; }
     </style>
 </head>
 <body>
+
 <header>
-    <h1>Lokesh K</h1>
-    <p>Developer | UI/UX </p>
+    <h1>Your Name</h1>
+    <p>Your Role / Title (e.g., Developer | UI/UX Designer | Student)</p>
 </header>
 
-<div class="section">
+<section>
     <h2>About Me</h2>
-    <p>I am a developer skilled in frontend, backend, and UI/UX.</p>
-</div>
+    <p>Write a short introduction about yourself here. Who you are, what you do, what motivates you, etc.</p>
+</section>
 
-<div class="section">
+<section>
     <h2>Skills</h2>
-    <p>HTML, CSS, JS, React, Node.js, UI/UX</p>
-</div>
+    <ul>
+        <li>Programming Languages: HTML, CSS, JavaScript, Python</li>
+        <li>Tools: Git, Figma, VS Code</li>
+        <li>Frameworks: React, Node.js (optional)</li>
+    </ul>
+</section>
 
-<div class="section">
+<section>
     <h2>Projects</h2>
     <div class="project">
-        <h3>Line Follower Robot</h3>
-        <p>IR sensors + motor driver robot.</p>
+        <h3>Project Title 1</h3>
+        <p>Short description of the project.</p>
     </div>
-</div>
+    <div class="project">
+        <h3>Project Title 2</h3>
+        <p>Short description of the project.</p>
+    </div>
+</section>
 
-<div class="section">
+<section>
+    <h2>Education</h2>
+    <p><strong>Your Degree</strong> – College Name (Year)</p>
+</section>
+
+<section>
+    <h2>Certificates</h2>
+    <div class="cert">AWS Cloud Practitioner</div>
+    <div class="cert">Any Other Certificate</div>
+</section>
+
+<section>
+    <h2>Experience / Internships</h2>
+    <div class="exp"><strong>UI/UX Intern</strong> – Company (Year)</div>
+</section>
+
+<section>
+    <h2>Hackathons</h2>
+    <div class="hack">Smart India Hackathon – Participant</div>
+</section>
+
+<section>
+    <h2>Achievements</h2>
+    <ul>
+        <li>Any major achievement or award</li>
+    </ul>
+</section>
+
+<section>
+    <h2>GitHub Stats</h2>
+    <img src="https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true" width="100%" />
+</section>
+
+<section class="contact">
     <h2>Contact</h2>
-    <p>Email: lokeshloke2411@gmail.com</p>
-</div>
+    <p>Email: yourmail@example.com</p>
+    <p>LinkedIn: <a href="#">Your Link</a></p>
+    <p>GitHub: <a href="#">Your GitHub</a></p>
+</section>
+
+<section>
+    <a href="resume.pdf" class="resume-btn">Download Resume</a>
+</section>
 
 </body>
 </html>
